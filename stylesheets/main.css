@@ -82,7 +82,7 @@ hr {
     border-bottom: 2px solid rgba(54, 88, 150, 0.801);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(124, 124, 124, 0.781);
-    margin: 10px 35px;
+    margin: 10px 35px 20px 35px;
     display: flex;
     flex-direction: column;
 }
@@ -98,8 +98,9 @@ hr {
 }
 
 .tech-stack-used i {
-    max-width: 30px;
-    max-height: 30px;
+    margin: 8px 0;
+    font-size: 30px;
+    color: rgba(58, 42, 202, 0.637);
 }
 
 .video-walkthrough {
