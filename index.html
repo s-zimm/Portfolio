@@ -6,28 +6,90 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link rel="stylesheet" href="stylesheets/main.css">
 <title>Seth Zimmerman</title>
 </head>
 <body>
 
     <header>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                   <a class="navbar-brand" href="#">Seth Zimmerman</a>
+                   <a class="navbar-brand" href="#top">Seth Zimmerman</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#top">Home</a></li>
+                        <li><a class="page-scroll" href="#about-me">About Me</a></li>
+                        <li><a class="page-scroll" href="#projects">Projects</a></li>
+                        <li><a class="page-scroll" href="#skills">Skills</a></li>
+                    </ul>
+
                 </div>
             </div>
-
         </nav>
+
+        <div id="big-name">
+            <h1>
+                Seth Zimmerman
+            </h1>
+            <hr>
+            <h3>
+                Full Stack Developer
+            </h3>
+        </div>
+
     </header>
 
+    <div id="about-me">
+
+        <div id="portrait">
+            <img src="images/my-pic.jpg" alt="A picture of Seth Zimmerman">
+        </div>
+
+        <div class="about-text">
+            <p>
+                    I am a full-stack javascript developer who hails from the quaint, coastal city of Charleston (pronounced locally: Chah-ull-stn), South Carolina. I am committed to building reliable, clean, and cutting-edge applications. Apart from writing code, I like music that you can get lost in, board game sessions that last all night, and food that can elevate your soul.
+            </p>
+        </div>
+
+    </div>
+
+    <div id="projects">
+        <h3>Featured Projects</h3>
+
+        <hr>
+
+        <div id="tabletop-scores">
+            <div class="project-content">
+                <div class="project-description">
+                    <h4>Tabletop Scores</h4>
+                    <h6><i>Board gaming social media experience</i></h6>
+                    <p>Tabletop Scores is a web application built for board gamers to track scores against  their    friends. After logging in with a Google account, a user can add game sessions   which will track     which game, which users, and their scores for a particular gaming    session. Games can be added   to the database and updated by users of the application.     Gamers can also use the in-app chat  functionality to have live conversations with one  another.</p>
+                </div>
+                <div class="tech-stack-used">
+                    <i class="devicon-nodejs-plain"></i>
+                </div>
+                <div class="video-walkthrough">
+                    <h3>This is where a walkthrough video will go</h3>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
