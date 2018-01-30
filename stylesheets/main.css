@@ -143,7 +143,7 @@ hr {
 }
 
 #skills i {
-    font-size: 50px;
+    font-size: 60px;
     padding: 10px;
     transition: all ease .3s;
 }
@@ -258,7 +258,7 @@ hr {
     }
 
     #skills i {
-        font-size: 70px;
+        font-size: 85px;
     }
 }
 
@@ -289,7 +289,8 @@ hr {
 
     #projects div.project-content {
         flex-direction: row;
-        margin: 35px 35px;
+        margin: 15px 35px;
+        padding: 70px 0 70px 0;
         justify-content: space-around;
     }
 
@@ -302,7 +303,7 @@ hr {
     }
 
     .project-description i[data] {
-        font-size: 33px;
+        font-size: 43px;
         color: black;
     }
 
@@ -310,8 +311,12 @@ hr {
         font-size: 38px;
     }
 
+    #package-tracker div.project-content {
+        flex-direction: row-reverse;
+    }
+
     #skills i {
-        font-size: 85px;
+        font-size: 100px;
     }
 
     #contact i {
@@ -326,5 +331,9 @@ hr {
 
     #skills i:hover {
         transform: translateY(-13px);
+    }
+
+    #contact {
+        padding: 60px 0 60px 0;
     }
 }
