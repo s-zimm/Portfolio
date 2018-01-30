@@ -95,6 +95,19 @@ hr {
     height: 45%;
 }
 
+.project-description a {
+    text-decoration: none;
+}
+
+.project-description i[class] {
+    font-size: 20px;
+    color: black;
+}
+
+.project-description i:hover {
+    color: rgb(158, 158, 158);
+}
+
 .tech-stack-used {
     height: 10%;
     display: flex;
@@ -159,7 +172,35 @@ hr {
     position: absolute;
     font-size: 12px;
 }
-/* 
-.hide {
-    display: none;
-} */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+#contact i {
+    font-size: 45px;
+}
+
+#created-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+    background-color: rgba(24, 59, 90, 0.568);
+    color: aliceblue;
+}
