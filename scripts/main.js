@@ -18,13 +18,15 @@ $('a[href^="#"]').on('click',function (e) {
 });
 
 // Transition for hovering over skill
-$('#skills i').hover((event) => {
-    $('#skills i').not($(event.target)).each( (index, element) => {
+$('.skill-group i').hover((event) => {
+    $('.icon-name').filter($(event.target).siblings()).removeClass('hide');
+    $('.skill-group i').not($(event.target)).each( (index, element) => {
         element = $(element);
         element.addClass('dull');
     })
 }, () => {
     $('.skill-section i').each( (index, element) => {
+        $('.icon-name').filter($(event.target).siblings()).addClass('hide');
         element = $(element);
         element.removeClass('dull');
     })
