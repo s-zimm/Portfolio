@@ -1,7 +1,7 @@
 // Ensuring active nav highlight on click
 $('.nav a').on('click', (event) => {
-    $('.nav').find('.active').removeClass('active');
-    $(event.target).parent().addClass('active');
+    // $('.nav').find('.active').removeClass('active');
+    // $(event.target).parent().addClass('active');
     $(".navbar-collapse").collapse('hide');
 });
 
@@ -12,7 +12,7 @@ $('a[href^="#"]').on('click',function (e) {
     $target = $(target);
     $('html, body').stop().animate({
         'scrollTop':  $target.offset().top
-    }, 700, 'swing', function () {
+    }, 650, 'swing', function () {
         window.location.hash = target;
     });
 });
