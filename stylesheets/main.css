@@ -106,3 +106,33 @@ hr {
 .video-walkthrough {
     height: 45%;
 }
+
+#skills {
+    width: 100%;
+    max-height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(54, 88, 150, 0.801);
+    padding: 25px;
+    color: aliceblue;
+}
+
+#skills i {
+    font-size: 50px;
+    padding: 20px;
+    transition: all ease .3s;
+}
+
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+#skills i:hover {
+    transform: translateY(-8px);
+}
+
