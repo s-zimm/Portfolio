@@ -11,6 +11,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+/* Top of page name and title */
 #big-name {
     display: flex;
     justify-content: center;
@@ -18,7 +19,7 @@ body {
     flex-direction: column;
     width: 100%;
     padding: 110px 0 150px 0;
-    background-color: rgb(41, 108, 231);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     color: aliceblue;
     margin-bottom: 7px;
@@ -30,20 +31,24 @@ body {
 
 .my-name {
     font-size: 37px;
+    color: black;
 }
 
 .i-am {
     font-size: 23px;
+    color: black;
 }
 
+/* Defines styling for hr elements */
 hr {
-    border-color: rgba(58, 42, 202, 0.637);
+    border-color: rgba(111, 104, 170, 0.637);
     width: 20%;
     border-width: 2.5px;
     border-radius: 3px;
     max-width: 75px;
 }
 
+/* About me and portrait */
 #about-me {
     padding: 10px;
     text-align: center;
@@ -79,6 +84,7 @@ hr {
     padding: 0 15px 0 15px;
 }
 
+/* Project div that holds all project entries */
 #projects {
     padding-top: 20px;
     display: flex;
@@ -86,6 +92,7 @@ hr {
     text-align: center;
 }
 
+/* Individual project divs */
 #projects div.project-content {
     padding: 5px 18px 18px 18px;
     border-bottom: 2px solid rgba(54, 88, 150, 0.801);
@@ -129,6 +136,7 @@ hr {
     height: 45%;
 }
 
+/* Skill section showcasing different technologies */
 #skills {
     width: 100%;
     max-height: 10%;
@@ -178,6 +186,7 @@ hr {
     font-size: 12px;
 }
 
+/* Contact div that holds links to respective pages */
 #contact {
     display: flex;
     flex-direction: column;
