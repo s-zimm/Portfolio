@@ -255,7 +255,7 @@ hr {
 
     #projects div.project-content {
         flex-direction: row;
-        margin: 45px 15px;
+        margin: 25px 15px;
         justify-content: space-around;
     }
 
@@ -316,14 +316,6 @@ hr {
         margin: 15px 35px;
         padding: 70px 0 70px 0;
         justify-content: space-around;
-    }
-
-    .project-description {
-        width: 35%;
-    }
-
-    .video-walkthrough {
-        width: 35%;
     }
 
     .project-description i[data] {
