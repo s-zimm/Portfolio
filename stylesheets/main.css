@@ -95,9 +95,6 @@ hr {
 /* Individual project divs */
 #projects div.project-content {
     padding: 5px 5px 18px 5px;
-    /* border-bottom: 2px solid rgba(54, 88, 150, 0.801); */
-    /* border-radius: 10px; */
-    /* box-shadow: 0 2px 5px rgba(124, 124, 124, 0.781); */
     margin: 20px 15px;
     display: flex;
     flex-direction: column;
@@ -223,6 +220,7 @@ hr {
 
 #contact i {
     font-size: 45px;
+    transition: all ease .2s;
 }
 
 #created-by {
@@ -362,4 +360,8 @@ hr {
     #contact {
         padding: 60px 0 60px 0;
     }
+}
+
+.hidden {
+    visibility: hidden;
 }

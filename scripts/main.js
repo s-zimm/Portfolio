@@ -32,12 +32,12 @@ $('.skill-group i').hover((event) => {
     })
 });
 
-// On window resize event for skills
-$(window).resize(event => {
-    if ($(window).width() > 1000) {
-        let detached = $('#sg1').detach();
-        detached.appendTo($('#ss1'));
-    }
+// // On window resize event for skills
+// $(window).resize(event => {
+//     if ($(window).width() > 1000) {
+//         let detached = $('#sg1').detach();
+//         detached.appendTo($('#ss1'));
+//     }
 
     
-})
+// })
