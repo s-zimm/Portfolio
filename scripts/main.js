@@ -31,3 +31,13 @@ $('.skill-group i').hover((event) => {
         element.removeClass('dull');
     })
 });
+
+// On window resize event for skills
+$(window).resize(event => {
+    if ($(window).width() > 1000) {
+        let detached = $('#sg1').detach();
+        detached.appendTo($('#ss1'));
+    }
+
+    
+})

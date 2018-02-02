@@ -160,7 +160,7 @@ hr {
     align-items: center;
     flex-wrap: wrap;
     background-color: rgba(54, 88, 150, 0.801);
-    padding: 25px;
+    padding: 20px 10px;
     color: aliceblue;
     position: relative;
 }
@@ -257,7 +257,7 @@ hr {
 
     #projects div.project-content {
         flex-direction: row;
-        margin: 35px 15px;
+        margin: 45px 15px;
         justify-content: space-around;
     }
 
