@@ -163,7 +163,7 @@ hr {
 }
 
 #skills i {
-    font-size: 60px;
+    font-size: 50px;
     padding: 10px;
     transition: all ease .3s;
 }
@@ -230,6 +230,12 @@ hr {
     padding: 60px 0 60px 0;
     background-color: rgba(24, 59, 90, 0.568);
     color: aliceblue;
+}
+
+@media (min-width: 575px) {
+    #skills i {
+        font-size: 55px;
+    }
 }
 
 @media (min-width: 700px) {
